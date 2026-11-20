@@ -1,38 +1,51 @@
-
 # Plan de trabajo - Grupo 03
 
-## Proyecto Final de Sistemas Operativos
-**Universidad del Valle - Semestre 3 de 2026**
+**Proyecto:** Proyecto Final de Sistemas Operativos  
+**Curso:** Semestre 2 - 2026  
+**Repositorio:** https://github.com/joseluis1105366300-oss/proyecto-final-so-grupo-03
 
-### 1. Integrantes y responsabilidades
+## 1. Integrantes, roles y responsabilidades
 
-| Integrante | Rol | Actividades |
+> Revisen esta distribución entre los dos integrantes y ajusten las tareas para que refleje lo que realmente hará cada uno.
+
+| Integrante | Rol principal | Actividades y archivos a cargo |
 |---|---|---|
-| José Luis Valencia Cano | Coordinación y repositorio | Administrar GitHub, organizar el proyecto, instalar y configurar Fedora Workstation y apoyar el sitio web. |
-| Yahiarón Fernández Fernández | Máquinas virtuales y servicios | Instalar Ubuntu Server, configurar la red, usuarios, seguridad, firewall y Docker. |
+| José Luis Valencia Cano | Coordinación y repositorio; VM gráfica | Administración del repositorio GitHub; instalación y configuración de Fedora Workstation; documentación de la VM gráfica; apoyo en la organización del sitio web. |
+| Yahiarón Fernández Fernández | VM de consola, red y servicios | Instalación y configuración de Ubuntu Server; configuración de red y SSH; documentación de la VM de consola; apoyo en Docker y servicios. |
+| Ambos | Trabajo compartido | Seguridad y usuarios, scripts y procesos, Dockerfile e imagen Docker Hub, Kubernetes, pruebas, evidencias, sitio web y sustentación. |
 
-### 2. Trabajo conjunto
-
-Ambos integrantes participarán en la elaboración de scripts, pruebas de funcionamiento, documentación, implementación de Kubernetes y sustentación del proyecto.
-
-### 3. Distribuciones asignadas
+## 2. Distribuciones asignadas al Grupo 03
 
 | Componente | Distribución |
 |---|---|
-| Máquina virtual gráfica | Fedora Workstation |
-| Máquina virtual de consola | Ubuntu Server |
-| Imagen base Docker | Fedora |
+| VM Linux gráfica | Fedora Workstation |
+| VM Linux de consola | Ubuntu Server |
+| Imagen base del Dockerfile | Fedora |
 
-### 4. Cronograma de trabajo
+## 3. Cronograma de sprints
 
-| Sprint | Actividad | Fecha de cierre |
-|---|---|---|
-| Sprint 0 - Arranque | Repositorio, plan de trabajo y ficha de versión. | 19 de noviembre de 2026 |
-| Sprint 1 - Montaje | Máquinas virtuales, red, SSH e instantáneas. | 26 de noviembre de 2026 |
-| Sprint 2 - Servicios | Usuarios, permisos, firewall, scripts, procesos y Docker. | 10 de diciembre de 2026 |
-| Sprint 3 - Cierre | Docker Hub, Kubernetes y sitio web. | 17 de diciembre de 2026 |
-| Sustentación | Presentación y prueba individual. | 18 de diciembre de 2026 |
+Los cierres son a las 11:55 p. m. El documento del curso indica dos fechas según sede:
 
-### 5. Organización del equipo
+| Sprint | Entrega principal | Santander | Yumbo |
+|---|---|---|---|
+| Sprint 0 - Arranque | Repositorio público, `plan/plan-de-trabajo.md` y `plan/ficha-version.md` | Jueves 19 de noviembre de 2026 | Viernes 20 de noviembre de 2026 |
+| Sprint 1 - Montaje | Dos máquinas virtuales, red, SSH e instantánea | Jueves 26 de noviembre de 2026 | Viernes 27 de noviembre de 2026 |
+| Sprint 2 - Servicios | Usuarios, firewall, scripts, procesos y Docker instalado | Jueves 10 de diciembre de 2026 | Viernes 11 de diciembre de 2026 |
+| Sprint 3 - Cierre | Imagen propia en Docker Hub, Kubernetes y sitio web completo | Jueves 17 de diciembre de 2026 | Viernes 18 de diciembre de 2026 |
+| Sustentación | Presentación del grupo y prueba individual | Viernes 18 de diciembre de 2026 | Sábado 19 de diciembre de 2026 |
 
-Los integrantes trabajarán conjuntamente durante los cuatro sprints, cumpliendo sus responsabilidades y registrando los avances en el repositorio de GitHub.
+## 4. Organización y seguimiento
+
+- Cada integrante debe realizar las tareas que aparecen asignadas en este plan y poder explicar su trabajo.
+- Las tareas compartidas se desarrollarán y verificarán entre ambos integrantes.
+- Los avances, archivos y evidencias se organizarán en el repositorio del grupo.
+- Las fechas y entregables se ajustan al cronograma del documento del curso.
+
+## 5. Identificadores de las máquinas virtuales
+
+- `g03-grafica`
+- `g03-consola`
+
+## 6. Revisión del equipo
+
+Antes de entregar, ambos integrantes deben revisar que las responsabilidades de la tabla correspondan al trabajo que efectivamente acordaron realizar.
